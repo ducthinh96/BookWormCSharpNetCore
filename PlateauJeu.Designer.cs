@@ -1,4 +1,4 @@
-﻿namespace BookWorm
+﻿namespace BookWormNetCore
 {
     partial class PlateauJeu
     {
@@ -793,7 +793,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PlateauJeu";
-            this.Text = "BookWorm";
+            this.Text = "BookWormNetCore";
             this.Load += new System.EventHandler(this.PlateauJeu_Load);
             this.sideBar.ResumeLayout(false);
             this.scoreOfWordPanel.ResumeLayout(false);

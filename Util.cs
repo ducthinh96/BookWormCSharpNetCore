@@ -6,7 +6,7 @@ using System.Media;
 using System.Windows.Forms;
 using System.Windows.Media;
 
-namespace BookWorm
+namespace BookWormNetCore
 {
     public static class Util
     {

@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWormNetCore", "BookWormNetCore.csproj", "{08474728-1BFB-46ED-AC67-ECA055A6755C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C9EAD67-09D4-4E4B-8F0F-4D1237BD9CBC}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\AssemblyInfo.cs = Properties\AssemblyInfo.cs
+		obj\Release\BookWorm.csproj.CoreCompileInputs.cache = obj\Release\BookWorm.csproj.CoreCompileInputs.cache
+		obj\Debug\BookWorm.csproj.CoreCompileInputs.cache = obj\Debug\BookWorm.csproj.CoreCompileInputs.cache
+		obj\Debug\BookWorm.csproj.FileListAbsolute.txt = obj\Debug\BookWorm.csproj.FileListAbsolute.txt
+		obj\Release\BookWorm.csproj.FileListAbsolute.txt = obj\Release\BookWorm.csproj.FileListAbsolute.txt
+		obj\Release\BookWorm.csproj.GenerateResource.cache = obj\Release\BookWorm.csproj.GenerateResource.cache
+		obj\Debug\BookWorm.csproj.GenerateResource.cache = obj\Debug\BookWorm.csproj.GenerateResource.cache
+		obj\Debug\BookWorm.csprojAssemblyReference.cache = obj\Debug\BookWorm.csprojAssemblyReference.cache
+		obj\Release\BookWorm.csprojAssemblyReference.cache = obj\Release\BookWorm.csprojAssemblyReference.cache
+		BookWormNetCore.csproj = BookWormNetCore.csproj
+		obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.CoreCompileInputs.cache = obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.CoreCompileInputs.cache
+		obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.FileListAbsolute.txt = obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.FileListAbsolute.txt
+		obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.GenerateResource.cache = obj\Debug\netcoreapp3.1\BookWormNetCore.csproj.GenerateResource.cache
+		obj\BookWormNetCore.csproj.nuget.dgspec.json = obj\BookWormNetCore.csproj.nuget.dgspec.json
+		obj\BookWormNetCore.csproj.nuget.g.props = obj\BookWormNetCore.csproj.nuget.g.props
+		obj\BookWormNetCore.csproj.nuget.g.targets = obj\BookWormNetCore.csproj.nuget.g.targets
+		BookWormNetCore.csproj.user = BookWormNetCore.csproj.user
+		obj\Debug\netcoreapp3.1\BookWormNetCore.csprojAssemblyReference.cache = obj\Debug\netcoreapp3.1\BookWormNetCore.csprojAssemblyReference.cache
+		Constant.cs = Constant.cs
+		Joueur.cs = Joueur.cs
+		bin\Debug\MenuOptions.cs = bin\Debug\MenuOptions.cs
+		bin\Release\MenuOptions.cs = bin\Release\MenuOptions.cs
+		MenuOptions.cs = MenuOptions.cs
+		bin\Debug\MenuOptions.Designer.cs = bin\Debug\MenuOptions.Designer.cs
+		bin\Release\MenuOptions.Designer.cs = bin\Release\MenuOptions.Designer.cs
+		MenuOptions.Designer.cs = MenuOptions.Designer.cs
+		MenuPrincipal.cs = MenuPrincipal.cs
+		bin\Debug\MenuPrincipal.cs = bin\Debug\MenuPrincipal.cs
+		bin\Release\MenuPrincipal.cs = bin\Release\MenuPrincipal.cs
+		bin\Debug\MenuPrincipal.Designer.cs = bin\Debug\MenuPrincipal.Designer.cs
+		bin\Release\MenuPrincipal.Designer.cs = bin\Release\MenuPrincipal.Designer.cs
+		MenuPrincipal.Designer.cs = MenuPrincipal.Designer.cs
+		bin\Debug\NomJoueur.cs = bin\Debug\NomJoueur.cs
+		bin\Release\NomJoueur.cs = bin\Release\NomJoueur.cs
+		NomJoueur.cs = NomJoueur.cs
+		bin\Debug\NomJoueur.Designer.cs = bin\Debug\NomJoueur.Designer.cs
+		bin\Release\NomJoueur.Designer.cs = bin\Release\NomJoueur.Designer.cs
+		NomJoueur.Designer.cs = NomJoueur.Designer.cs
+		bin\Debug\PlateauJeu.cs = bin\Debug\PlateauJeu.cs
+		bin\Release\PlateauJeu.cs = bin\Release\PlateauJeu.cs
+		PlateauJeu.cs = PlateauJeu.cs
+		bin\Debug\PlateauJeu.Designer.cs = bin\Debug\PlateauJeu.Designer.cs
+		bin\Release\PlateauJeu.Designer.cs = bin\Release\PlateauJeu.Designer.cs
+		PlateauJeu.Designer.cs = PlateauJeu.Designer.cs
+		Program.cs = Program.cs
+		Properties\Resources.Designer.cs = Properties\Resources.Designer.cs
+		bin\Debug\ScoreBoard.cs = bin\Debug\ScoreBoard.cs
+		bin\Release\ScoreBoard.cs = bin\Release\ScoreBoard.cs
+		ScoreBoard.cs = ScoreBoard.cs
+		bin\Debug\ScoreBoard.Designer.cs = bin\Debug\ScoreBoard.Designer.cs
+		bin\Release\ScoreBoard.Designer.cs = bin\Release\ScoreBoard.Designer.cs
+		ScoreBoard.Designer.cs = ScoreBoard.Designer.cs
+		Properties\Settings.Designer.cs = Properties\Settings.Designer.cs
+		obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs = obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+		obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs = obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+		obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs = obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+		Util.cs = Util.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08474728-1BFB-46ED-AC67-ECA055A6755C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08474728-1BFB-46ED-AC67-ECA055A6755C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08474728-1BFB-46ED-AC67-ECA055A6755C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08474728-1BFB-46ED-AC67-ECA055A6755C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6ED3FC-5A8F-4DD5-BE30-C038E529A057}
+	EndGlobalSection
+EndGlobal

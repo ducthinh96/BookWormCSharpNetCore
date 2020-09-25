@@ -1,4 +1,4 @@
-﻿namespace BookWorm
+﻿namespace BookWormNetCore
 {
     partial class NomJoueur
     {
@@ -97,7 +97,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "NomJoueur";
-            this.Text = "BookWorm";
+            this.Text = "BookWormNetCore";
             this.ResumeLayout(false);
             this.PerformLayout();
 

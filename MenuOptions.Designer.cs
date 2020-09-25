@@ -1,4 +1,4 @@
-﻿namespace BookWorm
+﻿namespace BookWormNetCore
 {
     partial class MenuOptions
     {

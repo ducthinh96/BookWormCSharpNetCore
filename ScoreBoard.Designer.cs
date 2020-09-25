@@ -1,4 +1,4 @@
-﻿namespace BookWorm
+﻿namespace BookWormNetCore
 {
     partial class ScoreBoard
     {
@@ -298,7 +298,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ScoreBoard";
-            this.Text = "BookWorm ScoreBoard";
+            this.Text = "BookWormNetCore ScoreBoard";
             this.Load += new System.EventHandler(this.ScoreBoard_Load);
             this.topPlayerPanel.ResumeLayout(false);
             this.topPlayerPanel.PerformLayout();

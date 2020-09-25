@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookWorm
+namespace BookWormNetCore
 {
     public partial class NomJoueur : Form
     {

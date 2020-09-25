@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace BookWorm
+namespace BookWormNetCore
 {
     public partial class PlateauJeu : Form
     {
@@ -41,6 +41,7 @@ namespace BookWorm
         nbOccurLettres[] structTest = new nbOccurLettres[26];
         string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         Random random = new Random();
+        const int DISTANCE_ALLOWED = 110;
 
         public PlateauJeu()
         {
@@ -212,7 +213,7 @@ namespace BookWorm
                 btn.Tag = Constant.SELECTED;
                 evnt = e;
 
-                btn.DoDragDrop("bidon", DragDropEffects.Link);
+                btn.DoDragDrop("bidon", DragDropEffects.Copy);
             }
         }
 
@@ -245,7 +246,7 @@ namespace BookWorm
 
         private void button1_DragEnter(object sender, DragEventArgs e)
         {
-            e.Effect = DragDropEffects.Link;
+            e.Effect = DragDropEffects.Copy;
 
             Button btn = (Button)sender;
 
@@ -258,7 +259,7 @@ namespace BookWorm
                 // Vérifier :
                 // => si le btnArrivee est le voisin du btnDepart
                 // => si le btnArrivee n'est pas sélectionné
-                if (posX_btnArrivee - posX_btnDepart <= 100 && posX_btnArrivee - posX_btnDepart >= -100 && posY_btnArrivee - posY_btnDepart <= 100 && posY_btnArrivee - posY_btnDepart >= -100 && btn.Tag.ToString() == Constant.NOT_SELECTED)
+                if (posX_btnArrivee - posX_btnDepart <= DISTANCE_ALLOWED && posX_btnArrivee - posX_btnDepart >= -DISTANCE_ALLOWED && posY_btnArrivee - posY_btnDepart <= DISTANCE_ALLOWED && posY_btnArrivee - posY_btnDepart >= -DISTANCE_ALLOWED && btn.Tag.ToString() == Constant.NOT_SELECTED)
                 {
                     // Ajouter la lettre à la fin du mot courant
                     currentWordLabel.Text += btn.Text;
